@@ -1,0 +1,50 @@
+body{
+background-image: url(./imagenes/daniele-levis-pelusi-mkMSXR86kYY-unsplash.jpg)
+}
+
+
+img.bw.grey {
+    filter: grayscale(1);
+    transition-property: filter;
+    transition-duration: 1s;      
+    border-radius: 50%;  
+}
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.datosPersonales{
+   
+    float: left;
+    
+}
+.formacion, .experiencia,.datosPersonales{
+    border-radius: 20px;
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    margin-right: 20%;
+    border: 1px solid black;
+    
+    background-color: rgb(238, 237, 237);
+}
+.formacion{
+    margin-top: 405px;
+    margin-right: 400px;
+}
+.experiencia{
+    margin-top: 30px; 
+    margin-right: 400px;
+}
+.none{
+    list-style-type: none;
+    margin: 2px;
+    padding: 2px;
+    
+}
+li{
+    margin: 3px;
+    padding: 3px;
+}
+
